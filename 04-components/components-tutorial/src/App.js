@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import { HelloWorld } from './01-props/HelloWorld';
+import { Toggle } from './02-state/Toggle';
+import { Counter } from './03-lifecycle/Counter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <HelloWorld name="Yariv" age={36}>
+	  	<p>some custom message</p>
+	  
+		</HelloWorld>	  
+	  
+	  
+	  <h2>
+	  	State
+	  </h2>
+	  <Toggle />
+	  
+	  <h2>
+	  	Lifecycle
+	  </h2>
+	  
+	  <Counter />
     </div>
   );
 }
