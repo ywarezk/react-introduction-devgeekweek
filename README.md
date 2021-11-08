@@ -32,3 +32,30 @@ playlist react - https://youtu.be/bVPMCmTN__Q
 - redux, mobx, useRecoil
 - graphql - apollo client
 - 
+
+## React
+
+React  + ReactDOM
+
+React  + ReactNative
+
+core + platform specific
+
+## graphql
+
+user
+{
+	account: [
+		{ settings : {
+			
+		}}
+	]
+}
+
+## application
+
+- react
+- formik / react-hook-forms
+- react-router
+- useRecoil
+- graphql - apollo
